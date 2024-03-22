@@ -1,0 +1,9 @@
+.aside {
+  flex-basis: 15%;
+  margin: 0 auto;
+  margin-top: 105px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+

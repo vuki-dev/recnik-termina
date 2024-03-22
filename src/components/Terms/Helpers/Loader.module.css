@@ -1,0 +1,11 @@
+.spinner_P7sC {
+  transform-origin: center;
+  animation: spinner_svv2 0.75s infinite linear;
+  stroke: green;
+  fill: green;
+}
+@keyframes spinner_svv2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}

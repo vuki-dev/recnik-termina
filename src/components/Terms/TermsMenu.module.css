@@ -1,0 +1,18 @@
+menu{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+input {
+    padding: 0.505em 6em 0.675em 1em;
+}
+
+.margin{
+    margin-left:10px
+}
+
+.buttonMargin{
+    margin: 0;
+    margin-left: 20px
+}

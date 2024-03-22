@@ -1,0 +1,101 @@
+.addTermForm {
+}
+
+.addTermForm input,
+.addTermForm textarea {
+  color: #fff;
+  background-color: #221d1d;
+}
+
+.termNdef {
+  display: flex;
+  flex-direction: column;
+}
+
+.relatedTerms {
+  margin: 10px 0;
+}
+
+.searchDiv {
+  position: relative;
+}
+
+.searchDiv input {
+  margin-top: 10px;
+}
+
+.searchResults {
+  max-height: 150px;
+  overflow: auto;
+  background-color: #221d1d;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.relatedTermsList,
+.searchResultsUl {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: baseline;
+  margin: 0;
+}
+
+.relatedTermsList,
+.searchResults li {
+  color: white;
+  cursor: pointer;
+}
+
+.searchResults li p {
+  margin: 0;
+}
+
+.relatedTermsList li:hover,
+.searchResults li:hover {
+  font-size: inherit;
+}
+
+.relatedTermsList li:hover {
+  color: red;
+}
+
+.relatedTermsList {
+  padding: 0;
+  margin-top: 10px;
+}
+
+
+
+.editIcon {
+  cursor: pointer;
+}
+
+.fetching {
+  opacity: 0.5;
+}
+
+/* Accessories */
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.closeBtn {
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+textarea {
+  padding-left: 18px;
+  padding-top: 9px;
+  font-size: 16px;
+}
+

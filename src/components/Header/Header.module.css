@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    justify-content: end;
+}
+
+.header button{
+    width: 150px;
+}

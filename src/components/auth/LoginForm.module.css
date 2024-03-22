@@ -1,0 +1,36 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px 120px;
+    padding-top: 20px;
+}
+
+label{
+    margin: 10px 2px;
+    color: white;
+
+    font-size: 18px;
+}
+
+input {
+    padding: 5px 10px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    outline: none;
+    border: none;
+}
+
+.button {
+    font-size: 16px;
+    margin: 20px 0;
+    width: 30%;
+}
+
+.error{
+    color: red;
+    font-size: 16px;
+    padding: 5px 0;
+}
