@@ -1,4 +1,6 @@
 import * as yup from 'yup';
+const apiUrl = import.meta.env.VITE_REACT_APP_API_URL;
+
 
 interface ILoginData {
   email: string,
@@ -7,7 +9,7 @@ interface ILoginData {
 
 export async function fetchLogin(loginData: ILoginData) {
   const response = await fetch(
-    "https://recnik-server.cbdevs.com/api/auth/login",
+    apiUrl +"api/auth/login",
     {
       method: "POST",
       headers: {
@@ -26,7 +28,7 @@ export async function fetchLogin(loginData: ILoginData) {
 
 export async function logout(token: string) {
   const response = await fetch(
-    "https://recnik-server.cbdevs.com/api/auth/logout",
+    apiUrl + "api/auth/logout",
     {
       method: "POST",
       headers: {
